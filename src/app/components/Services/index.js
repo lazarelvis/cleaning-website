@@ -41,7 +41,7 @@ export default function Services() {
                 <img
                   alt={item.alt}
                   src={item.img}
-                  class="w-full rounded-full object-cover border-8 border-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+                  className="w-full rounded-full object-cover border-8 border-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
                 ></img>
                 <div className="flex flex-1 flex-col p-4">
                   <div className="mt-2 text-base/7 font-medium text-center">
