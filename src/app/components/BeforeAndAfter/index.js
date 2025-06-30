@@ -1,3 +1,5 @@
+import styles from "./beforeAndAfter.module.css";
+
 export default function BeforeAndAfter() {
   const content = [
     {
@@ -22,11 +24,11 @@ export default function BeforeAndAfter() {
         <h1 className="text-center text-5xl font-semibold text-aqua p-10">
           Inainte si dupa
         </h1>
-        <div className="video-row flex gap-5 p-5 max-md:flex-wrap ">
+        <div className="flex gap-5 p-5 pb-10 max-md:flex-wrap">
           {content.map((item) => (
             <div
               key={item.id}
-              className="video-box max-w-xs rounded-xl overflow-hidden shadow-[0_3px_10px_rgb(0,0,0,0.2)] "
+              className={`${styles.videoBox} max-w-xs rounded-xl overflow-hidden shadow-[0_3px_10px_rgb(0,0,0,0.2)]`}
             >
               <video autoPlay muted loop playsInline>
                 <source src={item.video} type="video/mp4" />
