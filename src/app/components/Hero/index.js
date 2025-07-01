@@ -21,7 +21,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-bermuda px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-bermuda focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-full bg-bermuda px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-bermuda focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Despre noi
               </a>

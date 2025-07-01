@@ -8,10 +8,12 @@ import {
   MenuItems,
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import LogoAndInfo from "../LogoAndInfo";
+import Link from "next/link";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Despre Noi", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Despre Noi", href: "/desprenoi", current: false },
   { name: "Servicii", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
@@ -23,7 +25,11 @@ function classNames(...classes) {
 export default function Navbar() {
   return (
     //color of the background
-    <Disclosure as="nav" className="bg-white">
+    <Disclosure
+      as="nav"
+      className="bg-gray-50  font-[family-name:var(--font-poppins)]"
+    >
+      <LogoAndInfo />
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -46,7 +52,7 @@ export default function Navbar() {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
                     aria-current={item.current ? "page" : undefined}
@@ -58,7 +64,7 @@ export default function Navbar() {
                     )}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>

@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import BeforeAndAfter from "./components/BeforeAndAfter";
@@ -6,9 +5,6 @@ import BeforeAndAfter from "./components/BeforeAndAfter";
 export default function Home() {
   return (
     <div className=" min-h-screen pb-20 font-[family-name:var(--font-poppins)]">
-      <header>
-        <Navbar />
-      </header>
       <main>
         <Hero />
         <Services />
