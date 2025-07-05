@@ -1,46 +1,40 @@
+import styles from "./desprenoi.module.css";
+
 export default function DespreNoi() {
   return (
-    <div className="bg-cultured font-[family-name:var(--font-poppins)]">
-      <div className="mx-auto max-w-6xl">
-        <h1 className="text-4xl py-8">Despre noi</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It ha
+    <div className="font-[family-name:var(--font-poppins)] ">
+      <div className="bg-cultured">
+        <div className="mx-auto max-w-6xl px-4 lg:px-0">
+          <h1 className="text-4xl py-8">Despre noi</h1>
+        </div>
+      </div>
+      <div
+        className={`${styles.descriere} mx-auto max-w-6xl mt-10 px-4 lg:px-0`}
+      >
+        <p className="font-semibold text-xl">
+          Katy Basarabia Cleaning – Curățenie cu suflet, din inimă pentru
+          Brașov! 🧼✨
         </p>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          Suntem două surori harnice și dedicate, născute cu simțul curățeniei
+          și al detaliului, iar împreună am pornit cu inima deschisă această
+          afacere de familie: Katy Basarabia Cleaning. Oferim servicii de
+          curățenie generală și de întreținere în apartamente din Brașov, cu
+          accent pe calitate, seriozitate și respect pentru spațiul fiecăruia.
         </p>
+        <p>🌿 Ne ocupăm cu grijă de fiecare colțișor din casa ta</p>
+        <p>🧹 Folosim produse sigure și eficiente</p>
+        <p>🕒 Suntem punctuale, flexibile și de încredere</p>
+        <p>💬 Comunicare clară și atentă la nevoile clientului</p>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          Fie că ai nevoie de o curățenie temeinică de sezon sau de o
+          întreținere săptămânală, noi suntem aici să te ajutăm! Lasă grijile și
+          mopul în seama noastră – tu bucură-te de un apartament curat și
+          primitor! 🏡
         </p>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+        <p className="font-medium">📍 Disponibile în tot Brașovul</p>
+        <p className="font-medium">
+          📞 Contactează-ne pentru o ofertă personalizată!
         </p>
       </div>
     </div>
