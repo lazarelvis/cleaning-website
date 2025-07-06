@@ -166,7 +166,7 @@ export default function Footer() {
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
-                  0744221795{" "}
+                  0744 221 795{" "}
                 </a>
               </li>
 
