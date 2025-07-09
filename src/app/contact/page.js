@@ -24,7 +24,7 @@ export default function Contact() {
         <div className="flex flex-col items-center pb-7">
           <FaPhoneAlt className="text-4xl  text-aqua mb-4" />
           <h3 className="text-xl text-bermuda pb-2">Telefon:</h3>
-          <h4 className="text-base font-normal text-gray-600">0744 342 987</h4>
+          <h4 className="text-base font-normal text-gray-600">0744 243 987</h4>
         </div>
         <div className="flex flex-col items-center pb-7">
           <MdEmail className="text-4xl  text-aqua mb-4" />

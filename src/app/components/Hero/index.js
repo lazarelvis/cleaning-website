@@ -22,7 +22,7 @@ export default function Hero() {
               </h2>
               <div className="mt-10 flex items-left justify-left gap-x-6">
                 <a
-                  href="#"
+                  href="/desprenoi"
                   className="rounded-full bg-bermuda px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-bermuda focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Despre noi
@@ -32,7 +32,7 @@ export default function Hero() {
                     Ai intrebari?
                   </p>
                   <p className="text-medium font-bold text-gray-900">
-                    0744 221 795
+                    0744 243 987
                   </p>
                 </div>
               </div>

@@ -10,7 +10,7 @@ export default function Footer() {
           <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
             <li>
               <a
-                href="#"
+                href="https://www.tiktok.com/@katy.basarabia.cl"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -36,7 +36,7 @@ export default function Footer() {
 
             <li>
               <a
-                href="#"
+                href="https://www.instagram.com/basarabia_cleaning/"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -57,29 +57,6 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                className="text-gray-700 transition hover:opacity-75"
-              >
-                <span className="sr-only">Facebook</span>
-
-                <svg
-                  className="size-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </a>
-            </li>
           </ul>
         </div>
 
@@ -90,7 +67,7 @@ export default function Footer() {
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
-                  href="#"
+                  href="/costuri"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
@@ -100,7 +77,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/costuri"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
@@ -110,7 +87,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/costuri"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
@@ -126,7 +103,7 @@ export default function Footer() {
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
@@ -136,7 +113,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/desprenoi"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
@@ -146,7 +123,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
@@ -162,27 +139,27 @@ export default function Footer() {
             <ul className="mt-6 space-y-4 text-sm">
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
-                  0744 221 795{" "}
+                  0744 243 987{" "}
                 </a>
               </li>
 
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
-                  curatenie-brasov@gmail.com{" "}
+                  basarabiacleaning@gmail.com{" "}
                 </a>
               </li>
 
               <li>
                 <a
-                  href="#"
+                  href="https://calendly.com/basarabiacleaning"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
