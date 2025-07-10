@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-white font-[family-name:var(--font-poppins)]">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="text-lg font-bold text-aqua">
-            <h1>Firma de curatenie</h1>
+            <h1>Servicii de curatenie</h1>
           </div>
 
           <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
@@ -102,33 +104,33 @@ export default function Footer() {
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
                   Acasa{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/desprenoi"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
                   Despre Noi{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/contact"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
                   Contact{" "}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -148,13 +150,13 @@ export default function Footer() {
               </li>
 
               <li>
-                <a
+                <Link
                   href="/contact"
                   className="text-gray-700 transition hover:opacity-75"
                 >
                   {" "}
                   basarabiacleaning@gmail.com{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
@@ -207,7 +209,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-gray-500">
-          &copy; 2025. Firma de curatenie. Toate drepturile rezervate.
+          &copy; 2025. Katy Basarabia Cleaning. Toate drepturile rezervate.
         </p>
       </div>
     </footer>

@@ -38,11 +38,13 @@ export default function Services() {
                 key={index}
                 className="relative flex flex-col rounded-3xl p-2 "
               >
-                <img
+                <Image
+                  width={260}
+                  height={260}
                   alt={item.alt}
                   src={item.img}
                   className="w-full rounded-full object-cover border-8 border-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-                ></img>
+                />
                 <div className="flex flex-1 flex-col p-4">
                   <div className="mt-2 text-base/7 font-medium text-center">
                     <h2 className="text-aqua font-semibold text-xl ">
