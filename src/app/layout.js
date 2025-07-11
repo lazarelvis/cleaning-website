@@ -19,10 +19,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title:
-    "Firma de curatenie Brasov - Curatenie impecabila pentru locuinta in Brasov",
+  title: "Katy Basarabia Cleaning - Firma de curatenie Brasov",
   description:
-    "Firma Curățenie Brașov - Servicii profesionale de curățenie pentru locuințe, birouri și spații comerciale. Curățenie impecabilă cu echipamente moderne și soluții ecologice. Programări rapide, prețuri avantajoase și echipă de încredere.",
+    "Katy Basarabia Cleaning Firma Curățenie Brașov - Servicii profesionale de curățenie pentru locuințe, birouri și spații comerciale. Curățenie impecabilă cu echipamente moderne și soluții ecologice. Programări rapide, prețuri avantajoase și echipă de încredere.",
 };
 
 export default function RootLayout({ children }) {
